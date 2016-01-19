@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="121a80c9-c0b9-4431-ab76-94c1cc2df2b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hero-detail.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hero.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/hero.service.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/mock-heroes.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.component.js" afterPath="$PROJECT_DIR$/app/app.component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.component.js.map" afterPath="$PROJECT_DIR$/app/app.component.js.map" />
@@ -41,13 +41,33 @@
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6499417">
-              <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.57993">
+              <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
               <folding>
-                <marker date="1453173371000" expanded="true" signature="265:498" placeholder="..." />
-                <marker date="1453173371000" expanded="true" signature="307:484" placeholder="..." />
-                <marker date="1453173371000" expanded="true" signature="397:484" placeholder="..." />
+                <marker date="1453174704000" expanded="true" signature="347:580" placeholder="..." />
+                <marker date="1453174704000" expanded="true" signature="389:566" placeholder="..." />
+                <marker date="1453174704000" expanded="true" signature="479:566" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mock-heroes.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/mock-heroes.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hero.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/hero.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,6 +110,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/hero.ts" />
         <option value="$PROJECT_DIR$/app/hero-detail.component.ts" />
+        <option value="$PROJECT_DIR$/app/mock-heroes.ts" />
+        <option value="$PROJECT_DIR$/app/hero.service.ts" />
         <option value="$PROJECT_DIR$/app/app.component.ts" />
       </list>
     </option>
@@ -344,7 +366,13 @@
       <option name="project" value="LOCAL" />
       <updated>1453172234788</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Two Angular 2 Components working together">
+      <created>1453173404890</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1453173404890</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -377,7 +405,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Heroes List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Heroes List" />
+    <MESSAGE value="Two Angular 2 Components working together" />
+    <option name="LAST_COMMIT_MESSAGE" value="Two Angular 2 Components working together" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -448,14 +477,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/mock-heroes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/hero.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6499417">
-          <caret line="74" column="1" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.57993">
+          <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
           <folding>
-            <marker date="1453173371000" expanded="true" signature="265:498" placeholder="..." />
-            <marker date="1453173371000" expanded="true" signature="307:484" placeholder="..." />
-            <marker date="1453173371000" expanded="true" signature="397:484" placeholder="..." />
+            <marker date="1453174704000" expanded="true" signature="347:580" placeholder="..." />
+            <marker date="1453174704000" expanded="true" signature="389:566" placeholder="..." />
+            <marker date="1453174704000" expanded="true" signature="479:566" placeholder="..." />
           </folding>
         </state>
       </provider>
